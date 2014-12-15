@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path(File.join('..', 'lib', 'omniauth', 'y', 'version'), __FILE__)
+require File.expand_path(File.join('..', 'lib', 'omniauth', 'youtube', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
   gem.add_dependency 'omniauth', '>= 1.1.1'
