@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path(File.join('..', 'lib', 'omniauth', 'youtube', 'version'), __FILE__)
+require File.expand_path(File.join('..', 'lib', 'omniauth', 'y', 'version'), __FILE__)
 
 Gem::Specification.new do |gem|
   gem.add_dependency 'omniauth', '>= 1.1.1'
@@ -19,7 +19,7 @@ Gem::Specification.new do |gem|
 
   # Nothing lower than omniauth-oauth2 1.1.1
   # http://www.rubysec.com/advisories/CVE-2012-6134/
-  gem.add_runtime_dependency 'youtube', '>= 1.1.1'
+  gem.add_runtime_dependency 'omniauth-oauth2', '>= 1.1.1'
 
   gem.add_development_dependency 'rspec', '>= 2.14.0'
   gem.add_development_dependency 'rake'
