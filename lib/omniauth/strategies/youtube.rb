@@ -2,12 +2,12 @@ require 'omniauth/strategies/oauth2'
 
 module OmniAuth
   module Strategies
-    class GoogleOauth2 < OmniAuth::Strategies::OAuth2
+    class YouTube < OmniAuth::Strategies::OAuth2
       BASE_SCOPE_URL = "https://www.googleapis.com/auth/"
       BASE_SCOPES = %w[profile email openid]
       DEFAULT_SCOPE = "email,profile"
 
-      option :name, 'google_oauth2'
+      option :name, 'youtube'
 
       option :skip_friends, true
 
